@@ -15,10 +15,8 @@
     --white: #fff;
     --primary-text-color: #313e51;
     --secondary-text-color: #626c7f;
-    --button-bg: #fff;
+    --pontuacao-bg: #fff;
     --shadow: 0px 16px 40px 0px rgba(143, 168, 193, 0.14);
-    --green: #26d782;
-    --red: #ee5454;
     --bg-botao_um: #fff1e9;
     --bg-botao_dois: #e0fdef;
     --bg-botao_tres: #ebf0ff;
@@ -32,7 +30,7 @@ body.escuro {
     --color-span: #313e51;
     --primary-text-color: #fff;
     --secondary-text-color: #abc1e1;
-    --button-bg: #3b4d66;
+    --pontuacao-bg: #3b4d66;
     --bg-mobile: url(../../assets/images/pattern-background-mobile-dark.svg);
     --bg-desktop: url(../../assets/images/pattern-background-desktop-dark.svg);
     --shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
@@ -124,117 +122,41 @@ main {
     padding: 32px 24px;
 }
 
-.pergunta {
+main h2 {
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--primary-text-color);
     margin-bottom: 40px;
 }
 
-.pergunta p {
-    font-style: italic;
-    font-size: 14px;
-    color: var(--secondary-text-color);
-    margin-bottom: 12px;
-}
-
-.pergunta h2 {
-    font-size: 20px;
+main h2 strong {
     font-weight: 500;
-    color: var(--primary-text-color);
-    line-height: 24px;
-    margin-bottom: 24px;
 }
 
-.barra_progresso {
-    background: var(--button-bg);
-    height: 16px;
-    padding: 4px;
-    border-radius: 999px;
-}
-
-.barra_progresso div {
-    height: 100%;
-    width: 10%;
-    background: var(--purple);
-    border-radius: 999px;
-}
-
-.alternativas form {
+.pontuacao {
+    background: var(--pontuacao-bg);
+    padding: 32px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    margin-bottom: 12px;
-}
-
-.alternativas label {
-    display: block;
-    padding: 12px;
-    background: var(--button-bg);
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 999px;
-    box-shadow: var(--shadow);
-    color: var(--primary-text-color);
-    cursor: pointer;
-}
-
-.alternativas label:hover {
-    & span {
-        background: var(--bg-botao_quatro);
-        color: var(--purple);
-    }
-}
-
-.alternativas label:has(input:checked) {
-    outline: 3px solid var(--purple);
-
-    & span {
-        background: var(--purple);
-        color: var(--white);
-    }
-}
-
-.alternativas label#correta {
-    outline: 3px solid var(--green);
-
-    & span {
-        background: var(--green);
-        color: var(--white);
-    }
-}
-
-.alternativas label#errada {
-    outline: 3px solid var(--red);
-
-    & span {
-        color: var(--white);
-        background: var(--red);
-    }
-}
-
-.alternativas input {
-    display: none;
-}
-
-.alternativas div {
-    display: flex;
     align-items: center;
     gap: 16px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    box-shadow: var(--shadow);
 }
 
-.alternativas div span {
-    color: var(--color-span);
-    display: block;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--bg-span);
-    padding: 5px;
-    border-radius: 999px;
-    flex-shrink: 0;
+.pontuacao strong {
+    font-size: 88px;
+    color: var(--primary-text-color);
+    font-weight: 500;
 }
 
-.alternativas button {
+.pontuacao p {
+    color: var(--secondary-text-color);
+    font-size: 18px;
+}
+
+main button {
     padding: 16px;
     border-radius: 999px;
     border: none;
@@ -248,7 +170,7 @@ main {
     transition: 0.3s;
 }
 
-.alternativas button:hover {
+main button:hover {
     background: var(--purple-hover);
     cursor: pointer;
 }
@@ -289,53 +211,33 @@ main {
         width: 20px;
         height: 20px;
     }
-
     main {
+        display: flex;
+        gap: 140px;
         max-width: 1160px;
         margin-inline: auto;
-        display: flex;
-        gap: 130px;
     }
-    section {
+
+    main h2,
+    main > div {
         width: 100%;
     }
-    .pergunta {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+    main h2 {
+        font-size: 64px;
     }
 
-    .pergunta p {
-        font-size: 20px;
-        line-height: 30px;
-        margin-bottom: 27px;
+    .pontuacao {
+        border-radius: 24px;
+        margin-bottom: 32px;
     }
-
-    .pergunta h2 {
-        font-size: 36px;
-        line-height: 42px;
+    .pontuacao strong {
+        font-size: 144px;
     }
-
-    .alternativas form {
-        gap: 24px;
-        margin-bottom: 24px;
+    .pontuacao p {
+        font-size: 24px;
     }
-
-    .alternativas label {
+    main button {
         font-size: 28px;
-        padding: 18px 20px;
-    }
-
-    .alternativas div {
-        gap: 32px;
-    }
-
-    .alternativas div span {
-        width: 56px;
-        height: 56px;
-        font-size: 28px;
-    }
-    .alternativas button {
-        font-size: 28px;
+        padding: 32px;
     }
 }

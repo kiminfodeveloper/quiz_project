@@ -1,366 +1,361 @@
 {
     "quizzes": [
         {
-            "title": "HTML",
+            "title": "nivelfacil",
             "icon": "../../assets/images/icon-html.svg",
             "questions": [
                 {
-                    "question": "Qual o significado de HTML?",
+                    "question": "Qual é a tradução correta de 'Hello'?",
+                    "options": ["Oi", "Tchau", "Sim", "Por favor"],
+                    "answer": "Oi"
+                },
+                {
+                    "question": "Qual das palavras abaixo significa 'gato' em inglês?",
+                    "options": ["Dog", "Cat", "Bird", "Fish"],
+                    "answer": "Cat"
+                },
+                {
+                    "question": "Qual é o plural de 'apple'?",
+                    "options": ["Apples", "Apple's", "Applese", "Appes"],
+                    "answer": "Apples"
+                },
+                {
+                    "question": "Como se diz 'obrigado' em inglês?",
+                    "options": ["Please", "Sorry", "Thank you", "Hello"],
+                    "answer": "Thank you"
+                },
+                {
+                    "question": "Qual das opções significa 'livro' em inglês?",
+                    "options": ["Book", "Table", "Pen", "Chair"],
+                    "answer": "Book"
+                },
+                {
+                    "question": "Qual é o passado do verbo 'to be'?",
+                    "options": ["Was/Were", "Is/Are", "Been", "Wasn't"],
+                    "answer": "Was/Were"
+                },
+                {
+                    "question": "Qual a tradução de 'She is beautiful'?",
                     "options": [
-                        "Hyper Trainer Marking Language",
-                        "Hyper Text Marketing Language",
-                        "Hyper Text Markup Language",
-                        "Hyper Text Markup Leveler"
+                        "Ela é bonita",
+                        "Ele é bonito",
+                        "Ela é feia",
+                        "Ele é feio"
                     ],
-                    "answer": "Hyper Text Markup Language"
+                    "answer": "Ela é bonita"
                 },
                 {
-                    "question": "Qual das alternativas abaixo mostra a estrutura correta de um documento HTML?",
+                    "question": "Como se pergunta 'Qual é o seu nome?' em inglês?",
                     "options": [
-                        "<html><head></head><body></body></html>",
-                        "<head><html></html><body></body></head>",
-                        "<body><head></head><html></html></body>",
-                        "<html><body></body><head></head></html>"
+                        "How old are you?",
+                        "Where do you live?",
+                        "What's your name?",
+                        "How are you?"
                     ],
-                    "answer": "<html><head></head><body></body></html>"
+                    "answer": "What's your name?"
                 },
                 {
-                    "question": "Qual dos elementos abaixo e responsável pelo título do documento?",
-                    "options": ["<head>", "<title>", "<header>", "<top>"],
-                    "answer": "<title>"
-                },
-                {
-                    "question": "Qual é a função da tag <body> no HTML?",
+                    "question": "Como se diz 'bom dia' em inglês?",
                     "options": [
-                        "Define o cabeçalho da página.",
-                        "Contém todo o conteúdo como textos, imagens e links.",
-                        "Utilizada para definir o conteúdo principal da página.",
-                        "Define o corpo de um elemento de email no HTML."
+                        "Good afternoon",
+                        "Good night",
+                        "Good morning",
+                        "Hello"
                     ],
-                    "answer": "Contém todo o conteúdo como textos, imagens e links."
+                    "answer": "Good morning"
                 },
                 {
-                    "question": "Qual das tags abaixo é usada para criar hyperlinks (âncoras)?",
-                    "options": ["<hyperlink>", "<link>", "<a>", "<href>"],
-                    "answer": "<a>"
-                },
-                {
-                    "question": "Qual das tags é usada para mostrar imagens no HTML?",
-                    "options": ["<img>", "<image>", "<src>", "<pic>"],
-                    "answer": "<img>"
-                },
-                {
-                    "question": "Qual atributo é utilizado para indicar o caminho (fonte) de uma tag <img>?",
-                    "options": ["link", "src", "href", "url"],
-                    "answer": "src"
-                },
-                {
-                    "question": "Qual tag HTML é usada para criar uma lista não ordenada?",
-                    "options": ["<ul>", "<ol>", "<list>", "<li>"],
-                    "answer": "<ul>"
-                },
-                {
-                    "question": "O que faz a tag <br>?",
-                    "options": [
-                        "Quebra o texto em duas seções.",
-                        "Deixa o texto em negrito.",
-                        "Insere uma quebra de linha.",
-                        "Adiciona uma nova linha na tabela."
-                    ],
-                    "answer": "Insere uma quebra de linha."
-                },
-                {
-                    "question": "No HTML, o que faz a tag `fieldset`?",
-                    "options": [
-                        "É usada para agrupar informações relacionadas de um formulário.",
-                        "Define um tamanho fixo para o formulário.",
-                        "Faz a verificação automática das respostas do formulário.",
-                        "Esconde os campos de um formulário."
-                    ],
-                    "answer": "É usada para agrupar informações relacionadas de um formulário."
+                    "question": "Qual das opções abaixo é uma saudação comum em inglês?",
+                    "options": ["Goodbye", "See you", "Hello", "Take care"],
+                    "answer": "Hello"
                 }
             ]
         },
         {
-            "title": "CSS",
+            "title": "nivelintermediario",
             "icon": "../../assets/images/icon-css.svg",
             "questions": [
                 {
-                    "question": "Qual o significado de CSS?",
+                    "question": "Qual é o significado de 'to run'?",
+                    "options": ["Correr", "Saltar", "Nadar", "Andar"],
+                    "answer": "Correr"
+                },
+                {
+                    "question": "Como se forma o presente contínuo em inglês?",
                     "options": [
-                        "Colorful Style Sheets",
-                        "Computer Style Sheets",
-                        "Cascading Style Sheets",
-                        "Creative Style Sheets"
+                        "Verbo to be + verbo no infinitivo",
+                        "Verbo to be + verbo no gerúndio",
+                        "Verbo auxiliar + verbo no infinitivo",
+                        "Verbo no passado + verbo no gerúndio"
                     ],
-                    "answer": "Cascading Style Sheets"
+                    "answer": "Verbo to be + verbo no gerúndio"
                 },
                 {
-                    "question": "Qual atributo HTML é utilizado para escrever inline CSS?",
-                    "options": ["styles", "style", "class", "font-style"],
-                    "answer": "style"
-                },
-                {
-                    "question": "Como inserir um comentário no CSS?",
+                    "question": "Qual é a forma correta de perguntar 'Onde você mora?' em inglês?",
                     "options": [
-                        "// sou um comentário //",
-                        "/* sou um comentário */",
-                        "-- sou um comentário --",
-                        "<!-- sou um comentário -->"
+                        "Where you live?",
+                        "Where do you live?",
+                        "Where are you live?",
+                        "Where you living?"
                     ],
-                    "answer": "/* sou um comentário */"
+                    "answer": "Where do you live?"
                 },
                 {
-                    "question": "Qual propriedade é utilizada para mudar a cor de fundo de um elemento?",
+                    "question": "Qual destas frases está no passado simples?",
                     "options": [
-                        "color",
-                        "bgcolor",
-                        "background-color",
-                        "background"
+                        "I am going to the park.",
+                        "She will be happy.",
+                        "They were at home.",
+                        "We are eating now."
                     ],
-                    "answer": "background-color"
+                    "answer": "They were at home."
                 },
                 {
-                    "question": "Com estilizar todos os <p> ao mesmo tempo?",
-                    "options": ["p { }", ".p { }", "#p { }", "all.p { }"],
-                    "answer": "p { }"
-                },
-                {
-                    "question": "Qual propriedade é utilizada para mudar a fonte do elemento?",
+                    "question": "Como se diz 'Ela está estudando inglês'?",
                     "options": [
-                        "font-style",
-                        "text-style",
-                        "font-family",
-                        "typeface"
+                        "She studies English.",
+                        "She is studying English.",
+                        "She study English.",
+                        "She studying English."
                     ],
-                    "answer": "font-family"
+                    "answer": "She is studying English."
                 },
                 {
-                    "question": "Como fazer com que todas as palavras de um texto comecem com letra maiúscula?",
+                    "question": "Qual é o superlativo de 'good'?",
+                    "options": ["Better", "Best", "Goodest", "Gooder"],
+                    "answer": "Best"
+                },
+                {
+                    "question": "Qual dessas palavras é um adjetivo?",
+                    "options": ["Quickly", "Beautiful", "Happily", "Loudly"],
+                    "answer": "Beautiful"
+                },
+                {
+                    "question": "Como se diz 'Eu não gosto de café' em inglês?",
                     "options": [
-                        "text-transform: capitalize",
-                        "text-transform: uppercase",
-                        "text-style: capital",
-                        "font-transform: capitalize"
+                        "I don't like coffee.",
+                        "I doesn't like coffee.",
+                        "I not like coffee.",
+                        "I am not like coffee."
                     ],
-                    "answer": "text-transform: capitalize"
+                    "answer": "I don't like coffee."
                 },
                 {
-                    "question": "Como selecionar um elemento que tem a classe 'header'?",
-                    "options": [".header", "#header", "header", "*header"],
-                    "answer": ".header"
+                    "question": "Qual é a forma correta de usar o verbo 'to be' no presente para 'he'?",
+                    "options": ["He are", "He am", "He be", "He is"],
+                    "answer": "He is"
                 },
                 {
-                    "question": "Qual é o valor padrão da propriedade 'position'?",
-                    "options": ["relative", "fixed", "absolute", "static"],
-                    "answer": "static"
-                },
-                {
-                    "question": "Qual é a função da propriedade z-index no CSS?",
-                    "options": [
-                        "Contar o número de elementos",
-                        "Definir o nível de ampliação de um elemento",
-                        "Especificar a ordem de pilha de um elemento",
-                        "Criar um efeito de zoom"
-                    ],
-                    "answer": "Especificar a ordem de pilha de um elemento"
+                    "question": "Como se diz 'mãe' em inglês?",
+                    "options": ["Mom", "Dad", "Sister", "Brother"],
+                    "answer": "Mom"
                 }
             ]
         },
         {
-            "title": "Javascript",
+            "title": "niveldificil",
             "icon": "../../assets/images/icon-js.svg",
             "questions": [
                 {
-                    "question": "Qual é a sintaxe correta para mostrar 'Hello World' em uma caixa alert?",
+                    "question": "Como se usa o presente perfeito em inglês?",
                     "options": [
-                        "alertBox('Hello World');",
-                        "msg('Hello World');",
-                        "alert('Hello World');",
-                        "msgBox('Hello World');"
+                        "Verbo to be + verbo no gerúndio",
+                        "Verbo auxiliar have/has + particípio passado",
+                        "Verbo no infinitivo",
+                        "Verbo no passado simples"
                     ],
-                    "answer": "alert('Hello World');"
+                    "answer": "Verbo auxiliar have/has + particípio passado"
                 },
                 {
-                    "question": "Como se executa uma função chamada 'myFunction'?",
+                    "question": "Como se diz 'Eu já vi esse filme' em inglês?",
                     "options": [
-                        "call function myFunction()",
-                        "call myFunction()",
-                        "myFunction()",
-                        "execute myFunction()"
+                        "I have already seen this movie.",
+                        "I already see this movie.",
+                        "I am already seen this movie.",
+                        "I see this movie."
                     ],
-                    "answer": "myFunction()"
+                    "answer": "I have already seen this movie."
                 },
                 {
-                    "question": "Como escrever uma condicional IF no Javascript?",
+                    "question": "Qual é a tradução correta de 'They have been studying'?",
                     "options": [
-                        "if i = 5 then",
-                        "if (i == 5)",
-                        "if i == 5",
-                        "if i = 5"
+                        "Eles têm estudado",
+                        "Eles estão estudando",
+                        "Eles estavam estudando",
+                        "Eles estudaram"
                     ],
-                    "answer": "if (i == 5)"
+                    "answer": "Eles têm estudado"
                 },
                 {
-                    "question": "Como escrever uma condicional IF que executa algum código se 'i' NÃO for igual a 5?",
+                    "question": "Como se forma a voz passiva em inglês?",
                     "options": [
-                        "if (i <> 5)",
-                        "if i =! 5 then",
-                        "if (i != 5)",
-                        "if i not = 5"
+                        "Verbo to be + verbo no infinitivo",
+                        "Verbo to be + particípio passado",
+                        "Verbo auxiliar + verbo no passado",
+                        "Verbo no gerúndio + particípio passado"
                     ],
-                    "answer": "if (i != 5)"
+                    "answer": "Verbo to be + particípio passado"
                 },
                 {
-                    "question": "Como se inicia um laço FOR?",
+                    "question": "Qual é a função do 'Present Continuous' em inglês?",
                     "options": [
-                        "for (i = 0; i <= 5)",
-                        "for i = 1 to 5",
-                        "for (i <= 5; i++)",
-                        "for (i = 0; i <= 5; i++)"
+                        "Falar sobre ações habituais",
+                        "Descrever ações que estão acontecendo agora",
+                        "Expressar ações no passado",
+                        "Falar sobre ações futuras"
                     ],
-                    "answer": "for (i = 0; i <= 5; i++)"
+                    "answer": "Descrever ações que estão acontecendo agora"
                 },
                 {
-                    "question": "Como adicionar um cometário de uma linha do Javascript?",
+                    "question": "Qual dessas frases usa o futuro com 'going to'?",
                     "options": [
-                        "'Sou um comentário de uma linha",
-                        "//Sou um comentário de uma linha",
-                        "<!--Sou um comentário de uma linha-->",
-                        "/* Sou um comentário de uma linha */"
+                        "I will travel next year.",
+                        "I am going to travel next year.",
+                        "I travel next year.",
+                        "I will traveling next year."
                     ],
-                    "answer": "//Sou um comentário de uma linha"
+                    "answer": "I am going to travel next year."
                 },
                 {
-                    "question": "Qual é a maneira correta de criar um array no Javascript?",
+                    "question": "Como se diz 'Ela já terminou o trabalho?' em inglês?",
                     "options": [
-                        "var colors = (1:'red', 2:'green', 3:'blue')",
-                        "var colors = ['red', 'green', 'blue']",
-                        "var colors = 'red', 'green', 'blue'",
-                        "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
+                        "Has she finished the work yet?",
+                        "She finished the work yet?",
+                        "Did she finish the work yet?",
+                        "She has finished the work yet?"
                     ],
-                    "answer": "var colors = ['red', 'green', 'blue']"
+                    "answer": "Has she finished the work yet?"
                 },
                 {
-                    "question": "Como você encontra o maior valor entre x e y?",
+                    "question": "Qual é a forma correta de perguntar 'Você já esteve em Londres?' em inglês?",
                     "options": [
-                        "Math.ceil(x, y)",
-                        "top(x, y)",
-                        "Math.max(x, y)",
-                        "Math.highest(x, y)"
+                        "You ever been to London?",
+                        "Have you ever been to London?",
+                        "Did you ever been to London?",
+                        "You have ever been to London?"
                     ],
-                    "answer": "Math.max(x, y)"
+                    "answer": "Have you ever been to London?"
                 },
                 {
-                    "question": "Qual operador é utilizado para atribuir valor a uma variável?",
-                    "options": ["-", "*", "=", "x"],
-                    "answer": "="
+                    "question": "Como se diz 'Ela é mais inteligente do que ele' em inglês?",
+                    "options": [
+                        "She is more intelligent than him.",
+                        "She is intelligent than him.",
+                        "She is more intelligent as him.",
+                        "She is more intelligence than him."
+                    ],
+                    "answer": "She is more intelligent than him."
                 },
                 {
-                    "question": "Qual é a maneira correta de criar um objeto Javascript?",
+                    "question": "Como se diz 'Eu estava lendo quando você chegou' em inglês?",
                     "options": [
-                        "var person = {firstName: 'John', lastName: 'Doe'};",
-                        "var person = {firstName = 'John', lastName = 'Doe'};",
-                        "var person = (firstName: 'John', lastName: 'Doe');",
-                        "var person = (firstName = 'John', lastName = 'Doe');"
+                        "I was reading when you arrived.",
+                        "I reading when you arrived.",
+                        "I read when you arrived.",
+                        "I am reading when you arrived."
                     ],
-                    "answer": "var person = {firstName: 'John', lastName: 'Doe'};"
+                    "answer": "I was reading when you arrived."
                 }
             ]
         },
         {
-            "title": "Acessibilidade",
-            "icon": "../../assets/images/icon-accessibility.svg",
+            "title": "nivelexpert",
+            "icon": "../../assets/images/icon-expert.svg",
             "questions": [
                 {
-                    "question": "O que significa 'WCAG'?",
+                    "question": "Qual das opções abaixo é um exemplo de uso correto do 'Third Conditional'?",
                     "options": [
-                        "Diretrizes de Acessibilidade para Conteúdo da Web",
-                        "Guia de Acessibilidade e Conformidade na Web",
-                        "Metas de Acessibilidade para Conteúdo da Web",
-                        "Diretrizes de Conformidade e Acessibilidade do Site"
+                        "If I would have known, I would have told you.",
+                        "If I had known, I would have told you.",
+                        "If I had knew, I would told you.",
+                        "If I would knew, I had told you."
                     ],
-                    "answer": "Diretrizes de Acessibilidade para Conteúdo da Web"
+                    "answer": "If I had known, I would have told you."
                 },
                 {
-                    "question": "Qual elemento é usado para fornecer texto alternativo para imagens para usuários de leitores de tela?",
+                    "question": "Como se forma uma frase no futuro perfeito em inglês?",
                     "options": [
-                        "<alt>",
-                        "<figcaption>",
-                        "<description>",
-                        "<img alt='descrição'>"
+                        "Will + verbo no infinitivo",
+                        "Will have + particípio passado",
+                        "Will be + gerúndio",
+                        "Have + particípio passado"
                     ],
-                    "answer": "<img alt='descrição'>"
+                    "answer": "Will have + particípio passado"
                 },
                 {
-                    "question": "O que significa ARIA no desenvolvimento web?",
+                    "question": "Qual é o uso correto de 'wish' para expressar arrependimento no passado?",
                     "options": [
-                        "Accessible Rich Internet Applications",
-                        "Advanced Responsive Internet Assistance",
-                        "Accessible Responsive Internet Applications",
-                        "Automated Responsive Internet Actions"
+                        "I wish I know.",
+                        "I wish I had known.",
+                        "I wish I have known.",
+                        "I wish I knew."
                     ],
-                    "answer": "Accessible Rich Internet Applications"
+                    "answer": "I wish I had known."
                 },
                 {
-                    "question": "Qual dos seguintes não é um princípio do WCAG?",
+                    "question": "Como se constrói uma oração relativa com 'whose'?",
                     "options": [
-                        "Perceptível",
-                        "Confiável",
-                        "Operável",
-                        "Compreensível"
+                        "A girl who sister is my friend.",
+                        "A girl which sister is my friend.",
+                        "A girl whose sister is my friend.",
+                        "A girl that sister is my friend."
                     ],
-                    "answer": "Confiável"
+                    "answer": "A girl whose sister is my friend."
                 },
                 {
-                    "question": "Qual dessas razões de contraste de cor define o requisito mínimo do nível AA do WCAG 2.1 para texto normal?",
-                    "options": ["3:1", "4.5:1", "7:1", "2:1"],
-                    "answer": "4.5:1"
-                },
-                {
-                    "question": "Qual dos seguintes elementos é inerentemente focável, o que significa que pode receber foco sem um atributo 'tabindex'?",
-                    "options": ["<div>", "<span>", "<a href='...'>", "<p>"],
-                    "answer": "<a href='...'>"
-                },
-                {
-                    "question": "Qual é o propósito do atributo 'lang' em uma página HTML?",
+                    "question": "Qual é o uso correto de 'either' em uma frase negativa?",
                     "options": [
-                        "Para especificar a linguagem de script",
-                        "Para definir o conjunto de caracteres",
-                        "Para indicar o idioma do conteúdo da página",
-                        "Para declarar um pacote de idioma"
+                        "I don't like it, either.",
+                        "I don't like it, neither.",
+                        "I like it, either.",
+                        "I neither like it."
                     ],
-                    "answer": "Para indicar o idioma do conteúdo da página"
+                    "answer": "I don't like it, either."
                 },
                 {
-                    "question": "Qual diretriz garante que o conteúdo seja acessível tanto pelo teclado quanto pelo mouse?",
+                    "question": "Qual é a forma correta de expressar uma ação habitual no passado?",
                     "options": [
-                        "Acessível por Teclado",
-                        "Independência de Mouse",
-                        "Independência de Dispositivo",
-                        "Controles Operáveis"
+                        "I used to go to the gym.",
+                        "I was going to the gym.",
+                        "I use to go to the gym.",
+                        "I go to the gym."
                     ],
-                    "answer": "Acessível por Teclado"
+                    "answer": "I used to go to the gym."
                 },
                 {
-                    "question": "Qual é o papel dos links 'pular navegação' na acessibilidade web?",
+                    "question": "Como se faz uma sugestão em inglês usando 'shall'?",
                     "options": [
-                        "Pular a navegação primária para o conteúdo principal",
-                        "Fornecer atalhos para diferentes seções do site",
-                        "Ajudar os usuários a pular seções indesejadas como propagandas",
-                        "Bypassar links quebrados na navegação"
+                        "Shall we go to the park?",
+                        "Shall going to the park?",
+                        "Shall to go to the park?",
+                        "Shall we going to the park?"
                     ],
-                    "answer": "Pular a navegação primária para o conteúdo principal"
+                    "answer": "Shall we go to the park?"
                 },
                 {
-                    "question": "Qual dessas ferramentas pode ajudar a verificar a acessibilidade de um site?",
+                    "question": "Qual das seguintes palavras é um exemplo de 'phrasal verb'?",
+                    "options": ["Take off", "Take", "Off", "Takes"],
+                    "answer": "Take off"
+                },
+                {
+                    "question": "Como se usa a inversão para dar ênfase em inglês?",
                     "options": [
-                        "Validador W3C",
-                        "Google Lighthouse",
-                        "Validador CSS",
-                        "Console JavaScript"
+                        "Never I have seen such a thing.",
+                        "Never have I seen such a thing.",
+                        "Never I seen such a thing.",
+                        "Never have seen I such a thing."
                     ],
-                    "answer": "Google Lighthouse"
+                    "answer": "Never have I seen such a thing."
+                },
+                {
+                    "question": "Qual é a forma correta de usar 'ought to' para dar um conselho?",
+                    "options": [
+                        "You ought to study more.",
+                        "You ought study more.",
+                        "You ought to studying more.",
+                        "You ought studying more."
+                    ],
+                    "answer": "You ought to study more."
                 }
             ]
         }

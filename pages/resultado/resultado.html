@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,17 +9,20 @@
             href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="quiz.css" />
-        <script defer type="module" src="quizz.js"></script>
-        <title>Quiz QF</title>
+        <link rel="stylesheet" href="resultado.css" />
+        <script defer type="module" src="resultado.js"></script>
+        <title>Resultado Quiz QF</title>
     </head>
     <body>
         <header>
             <div class="assunto">
                 <div class="assunto_icone">
-                    <img src="../../assets/images/nivelfacil.svg" alt="" />
+                    <img
+                        src="../../assets/images/icon-accessibility.svg"
+                        alt="Icone Acessibilidade"
+                    />
                 </div>
-                <h1>Perguntas</h1>
+                <h1>Acessibilidade</h1>
             </div>
             <div class="tema">
                 <img
@@ -35,7 +38,15 @@
                 />
             </div>
         </header>
-
-        <main></main>
+        <main>
+            <h2>
+                Quiz Completo <br />
+                <strong>Seus pontos...</strong>
+            </h2>
+            <div>
+                <section class="pontuacao"></section>
+                <button>Jogar novamente</button>
+            </div>
+        </main>
     </body>
 </html>
