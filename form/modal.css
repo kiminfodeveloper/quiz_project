@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    --bg-color-modal: #d6adfe;
+    --bg-span-modal: #f4f6fa;
+    --color-span-modal: #626c7f;
+    --purple-modal: #a72985;
+    --purple-hover-modal: rgba(167, 41, 245, 0.271);
+    --white-modal: #fff;
+    --primary-text-color-modal: #313e51;
+    --secondary-text-color-modal: #626c7f;
+    --pontuacao-bg-modal: #fff;
+    --shadow-modal: 0px 16px 40px 0px rgba(143, 168, 193, 0.14);
+    --bg-botao_um-modal: #fff1e9;
+    --bg-botao_dois-modal: #e0fdef;
+    --bg-botao_tres-modal: #ebf0ff;
+    --bg-botao_quatro-modal: #f6e7ff;
+    --bg-mobile-modal: url(../../assets/images/pattern-background-mobile-light.svg);
+    --bg-desktop-modal: url(../../assets/images/pattern-background-desktop-light.svg);
+}
+
+/* Modal Styles */
+.modal {
+    display: none; /* Oculta o modal por padrão */
+    position: fixed; /* Fica fixo na tela */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(
+        --purple-hover-modal
+    ); /* Cor de fundo preta com opacidade */
+    z-index: 1000; /* Garante que o modal apareça sobre outros elementos */
+    overflow: auto; /* Adiciona rolagem se necessário */
+    padding-top: 60px; /* Espaçamento superior */
+}
+
+.modal-content {
+    background-color: var(--bg-color-modal); /* Cor de fundo do modal */
+    margin: 5% auto; /* Espaçamento do modal */
+    padding: 20px;
+    border: 1px solid var(--color-span-modal); /* Borda do modal */
+    width: 80%; /* Largura do modal */
+    max-width: 600px; /* Largura máxima do modal */
+    border-radius: 8px;
+    box-shadow: var(--shadow-modal); /* Sombra ao redor do modal */
+    position: relative; /* Permite a posição absoluta do botão de fechar */
+}
+
+.modal-content h2 {
+    color: var(--primary-text-color-modal); /* Cor do título */
+    margin-bottom: 16px;
+    width: 80%;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* Botão de Fechar */
+.modal .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    color: var(--primary-text-color-modal); /* Cor do botão de fechar */
+    cursor: pointer;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    font-size: 20px;
+    color: var(--secondary-text-color-modal);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    font-style: italic;
+}
+
+.radio-label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid var(--color-span-modal); /* Borda dos labels */
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: var(--primary-text-color-modal); /* Cor do texto dos labels */
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: 0.1s;
+    border: none;
+    box-shadow: var(--shadow-modal);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.radio-label input[type="radio"] {
+    margin-right: 10px;
+    appearance: none;
+}
+
+.radio-label:hover {
+    background-color: var(--purple-modal); /* Cor de fundo ao passar o mouse */
+    color: var(--white-modal);
+}
+
+#leadForm {
+    display: none;
+    margin-top: 20px;
+}
+
+#leadForm h3 {
+    margin-bottom: 16px;
+    color: var(--secondary-text-color-modal);
+}
+
+#leadForm label {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--primary-text-color-modal);
+}
+
+#leadForm input[type="text"],
+#leadForm input[type="email"],
+#leadForm input[type="tel"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--color-span-modal); /* Borda dos campos de texto */
+    border-radius: 5px;
+}
+
+#leadForm input[type="submit"],
+.whatsapp-button {
+    background-color: var(--purple-modal); /* Cor de fundo do botão */
+    color: var(--white-modal);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#leadForm input[type="submit"]:hover,
+.whatsapp-button:hover {
+    background-color: var(
+        --purple-hover-modal
+    ); /* Cor de fundo ao passar o mouse */
+}
+
+.whatsapp-button {
+    background-color: #25d366;
+    margin-left: 10px;
+}
+
+.whatsapp-button:hover {
+    background-color: #1ebe5a;
+}
