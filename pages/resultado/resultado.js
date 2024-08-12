@@ -49,9 +49,56 @@ function inserirResultado() {
 }
 
 function jogaNovamente() {
-    localStorage.removeItem("pontos");
-    localStorage.removeItem("assunto");
-    window.location.href = "../../index.html";
+    const pontos = localStorage.getItem("pontos");
+
+    if (pontos >= 8) {
+        const botaoNomeTexto = document.querySelector(".botaoReiniciar");
+        if (botaoNomeTexto) {
+            // Define a URL de redirecionamento com base no assunto
+            let redirectUrl = "";
+            switch (assunto) {
+                case "Nível Fácil":
+                    redirectUrl =
+                        "https://chat.whatsapp.com/JcFfpm9dvAWKlF8eWYuuCJ";
+                    break;
+
+                case "Nível Intermediário":
+                    redirectUrl =
+                        "https://chat.whatsapp.com/JYBD0yvXQLhBBHRhidsagw";
+                    break;
+
+                case "Nível Difícil":
+                    redirectUrl =
+                        "https://chat.whatsapp.com/DHF8aBDTEkIF3Wfmj8jfGD";
+                    break;
+
+                case "Nível Expert":
+                    redirectUrl = "https://wa.me/5511912731987";
+                    break;
+
+                default:
+                    localStorage.removeItem("pontos");
+                    localStorage.removeItem("assunto");
+                    window.location.href = "../../index.html";
+
+                    return;
+            }
+
+            // Atualiza o texto do botão e define o evento de clique para redirecionar
+            botaoNomeTexto.innerText = "GRUPO WHATSAPP";
+            botaoNomeTexto.addEventListener("click", () => {
+                window.location.href = redirectUrl;
+            });
+        }
+    } else {
+        // Redireciona para a página inicial se a pontuação for menor que 8
+        localStorage.removeItem("pontos");
+        localStorage.removeItem("assunto");
+        window.location.href = "../../index.html";
+    }
 }
+
+// Certifique-se de que a função seja chamada após o DOM estar completamente carregado
+document.addEventListener("DOMContentLoaded", jogaNovamente);
 
 inserirResultado();

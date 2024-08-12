@@ -18,3 +18,14 @@ function selecionarAssunto(evento) {
     localStorage.setItem("assunto", assunto);
     window.location.href = "./pages/quiz/quiz.html";
 }
+
+function clicarBotao() {
+    const botaoWpp = document.querySelector(".btn_whatsApp");
+
+    botaoWpp.addEventListener("click", function () {
+        window.location.href =
+            "https://chat.whatsapp.com/JcFfpm9dvAWKlF8eWYuuCJ";
+    });
+}
+
+document.addEventListener("DOMContentLoaded", clicarBotao);

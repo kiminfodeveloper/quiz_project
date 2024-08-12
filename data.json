@@ -6,8 +6,8 @@
             "questions": [
                 {
                     "question": "Qual é a tradução correta de 'Hello'?",
-                    "options": ["Oi", "Tchau", "Sim", "Por favor"],
-                    "answer": "Oi"
+                    "options": ["Olá", "Tchau", "Sim", "Por favor"],
+                    "answer": "Olá"
                 },
                 {
                     "question": "Qual das palavras abaixo significa 'gato' em inglês?",

@@ -11,12 +11,526 @@
             href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
             rel="stylesheet"
         />
+        <link
+            rel="icon"
+            type="image/jpg"
+            href="https://i.ibb.co/ysgN9P5/logo.png"
+        />
 
         <title>Quiz QF</title>
 
         <link rel="stylesheet" href="styles/styles.css" />
+
+        <link rel="stylesheet" href="form/modal.css" />
     </head>
     <body>
+        <!-- Modal Container -->
+        <div id="quizModal" class="modal">
+            <div class="modal-content">
+                <h2>
+                    RESPONDA O NOSSO QUIZ PARA RECEBER <span>3</span> DIAS DE
+                    AULAS GRATUITAS!!!!
+                </h2>
+                <form id="quizForm">
+                    <!-- Perguntas -->
+                    <div id="questions">
+                        <div class="question" id="question1">
+                            <p>1. Qual a importância do inglês na sua vida?</p>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="importance"
+                                    value="Muito Importante"
+                                />
+                                Muito Importante
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="importance"
+                                    value="Importante"
+                                />
+                                Importante
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="importance"
+                                    value="Pouco Importante"
+                                />
+                                Pouco Importante
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="importance"
+                                    value="Não é importante"
+                                />
+                                Não é importante
+                            </label>
+                        </div>
+
+                        <div
+                            class="question"
+                            id="question2"
+                            style="display: none"
+                        >
+                            <p>
+                                2. Você acha que o inglês é essencial para
+                                avançar na sua carreira?
+                            </p>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="career"
+                                    value="Sim, absolutamente"
+                                />
+                                Sim, absolutamente
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="career"
+                                    value="Sim, mas depende da carreira"
+                                />
+                                Sim, mas depende da carreira
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="career"
+                                    value="Não, não vejo a necessidade"
+                                />
+                                Não, não vejo a necessidade
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="career"
+                                    value="Não, acho que não é necessário"
+                                />
+                                Não, acho que não é necessário
+                            </label>
+                        </div>
+
+                        <div
+                            class="question"
+                            id="question3"
+                            style="display: none"
+                        >
+                            <p>
+                                3. Você considera o inglês um diferencial
+                                competitivo no mercado de trabalho?
+                            </p>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="competitive"
+                                    value="Sim, definitivamente"
+                                />
+                                Sim, definitivamente
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="competitive"
+                                    value="Sim, mas não é crucial"
+                                />
+                                Sim, mas não é crucial
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="competitive"
+                                    value="Não, é apenas uma habilidade adicional"
+                                />
+                                Não, é apenas uma habilidade adicional
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="competitive"
+                                    value="Não, não vejo valor no inglês para minha carreira"
+                                />
+                                Não, não vejo valor no inglês para minha
+                                carreira
+                            </label>
+                        </div>
+                        <div
+                            class="question"
+                            id="question4"
+                            style="display: none"
+                        >
+                            <p>
+                                4. Você já deixou de aproveitar oportunidades
+                                por não dominar o inglês?
+                            </p>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="opportunities"
+                                    value="Sim, várias vezes"
+                                />
+                                Sim, várias vezes
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="opportunities"
+                                    value="Sim, uma vez ou outra"
+                                />
+                                Sim, uma vez ou outra
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="opportunities"
+                                    value="Não, nunca"
+                                />
+                                Não, nunca
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="opportunities"
+                                    value="Não, mas poderia ter perdido oportunidades"
+                                />
+                                Não, mas poderia ter perdido oportunidades
+                            </label>
+                        </div>
+
+                        <div
+                            class="question"
+                            id="question5"
+                            style="display: none"
+                        >
+                            <p>5. Qual é o seu nível de fluência em inglês?</p>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="fluency"
+                                    value="Fluente"
+                                />
+                                Fluente
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="fluency"
+                                    value="Avançado"
+                                />
+                                Avançado
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="fluency"
+                                    value="Intermediário"
+                                />
+                                Intermediário
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="fluency"
+                                    value="Iniciante"
+                                />
+                                Iniciante
+                            </label>
+                        </div>
+
+                        <div
+                            class="question"
+                            id="question6"
+                            style="display: none"
+                        >
+                            <p>6. Você utiliza o inglês no seu dia a dia?</p>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="usage"
+                                    value="Sim, frequentemente"
+                                />
+                                Sim, frequentemente
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="usage"
+                                    value="Sim, ocasionalmente"
+                                />
+                                Sim, ocasionalmente
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="usage"
+                                    value="Não, raramente"
+                                />
+                                Não, raramente
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="usage"
+                                    value="Não, nunca"
+                                />
+                                Não, nunca
+                            </label>
+                        </div>
+
+                        <div
+                            class="question"
+                            id="question7"
+                            style="display: none"
+                        >
+                            <p>
+                                7. Você acredita que o inglês pode melhorar sua
+                                qualidade de vida?
+                            </p>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="qualityOfLife"
+                                    value="Sim, de várias maneiras"
+                                />
+                                Sim, de várias maneiras
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="qualityOfLife"
+                                    value="Sim, em alguns aspectos"
+                                />
+                                Sim, em alguns aspectos
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="qualityOfLife"
+                                    value="Não, não vejo impacto"
+                                />
+                                Não, não vejo impacto
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="qualityOfLife"
+                                    value="Não, não acho que seja relevante"
+                                />
+                                Não, não acho que seja relevante
+                            </label>
+                        </div>
+
+                        <div
+                            class="question"
+                            id="question8"
+                            style="display: none"
+                        >
+                            <p>
+                                8. Qual a sua motivação principal para aprender
+                                inglês?
+                            </p>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="motivation"
+                                    value="Melhorar oportunidades de carreira"
+                                />
+                                Melhorar oportunidades de carreira
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="motivation"
+                                    value="Viajar para países de língua inglesa"
+                                />
+                                Viajar para países de língua inglesa
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="motivation"
+                                    value="Consumir conteúdo em inglês (livros, filmes, etc.)"
+                                />
+                                Consumir conteúdo em inglês (livros, filmes,
+                                etc.)
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="motivation"
+                                    value="Outras razões (especificar)"
+                                />
+                                Outras razões (especificar)
+                            </label>
+                        </div>
+
+                        <div
+                            class="question"
+                            id="question9"
+                            style="display: none"
+                        >
+                            <p>
+                                9. Você já participou de algum curso ou aula de
+                                inglês?
+                            </p>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="course"
+                                    value="Sim, atualmente estou participando"
+                                />
+                                Sim, atualmente estou participando
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="course"
+                                    value="Sim, já participei no passado"
+                                />
+                                Sim, já participei no passado
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="course"
+                                    value="Não, mas tenho interesse"
+                                />
+                                Não, mas tenho interesse
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="course"
+                                    value="Não, e não pretendo participar"
+                                />
+                                Não, e não pretendo participar
+                            </label>
+                        </div>
+
+                        <div
+                            class="question"
+                            id="question10"
+                            style="display: none"
+                        >
+                            <p>
+                                10. Qual o impacto de saber inglês em sua vida
+                                social e profissional?
+                            </p>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="impact"
+                                    value="Grande impacto positivo"
+                                />
+                                Grande impacto positivo
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="impact"
+                                    value="Algum impacto positivo"
+                                />
+                                Algum impacto positivo
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="impact"
+                                    value="Pouco impacto"
+                                />
+                                Pouco impacto
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="impact"
+                                    value="Nenhum impacto"
+                                />
+                                Nenhum impacto
+                            </label>
+                        </div>
+
+                        <div
+                            class="question"
+                            id="question11"
+                            style="display: none"
+                        >
+                            <p>
+                                11. Você quer três dias de aulas gratuita com um
+                                professor?
+                            </p>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="freeClass"
+                                    value="Sim"
+                                />
+                                Sim
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="freeClass"
+                                    value="Claro"
+                                />
+                                Claro
+                            </label>
+                            <label class="radio-label">
+                                <input
+                                    type="radio"
+                                    name="freeClass"
+                                    value="Com Certeza !!!"
+                                />
+                                Com Certeza !!!
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Formulário e botão WhatsApp -->
+
+                    <div id="leadForm" style="display: none">
+                        <h3>
+                            Deixe suas informações para garantir sua vaga nas
+                            aulas gratuitas:
+                        </h3>
+                        <label for="name">Nome:</label><br />
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            required
+                        /><br />
+
+                        <label for="email">Email:</label><br />
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required
+                        /><br />
+
+                        <label for="phone">Telefone:</label><br />
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            required
+                        /><br /><br />
+
+                        <input type="submit" value="Enviar" />
+                        <a
+                            target="_blank"
+                            href="https://wa.me/5511912731987"
+                            class="whatsapp-button"
+                            >Conversar pelo WhatsApp</a
+                        >
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- fecha modal -->
         <header>
             <div class="tema">
                 <img src="./assets/images/icon-sun-dark.svg" alt="Icon Sun" />
@@ -31,7 +545,14 @@
                 <h1>Bem-vindo(a) ao <br /><strong>QF Quiz!</strong></h1>
 
                 <p>Escolha um tema para começar.</p>
+                <br />
+                <p>Quer ir direto para o nosso grupo iniciante? <br /></p>
+
+                <div class="esconder_botao">
+                    <button class="btn_whatsApp">GRUPO DO WHATSAPP</button>
+                </div>
             </section>
+
             <section class="assuntos">
                 <button class="botao_um">
                     <div>
@@ -64,4 +585,10 @@
         </main>
     </body>
     <script type="module" defer src="js/scripts.js"></script>
+    <script defer src="form/modal.js"></script>
+    <!-- disable F12 -->
+    <script
+        disable-devtool-auto
+        src="https://cdn.jsdelivr.net/npm/disable-devtool"
+    ></script>
 </html>
