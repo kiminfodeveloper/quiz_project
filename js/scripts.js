@@ -24,7 +24,7 @@ function clicarBotao() {
 
     botaoWpp.addEventListener("click", function () {
         window.location.href =
-            "https://chat.whatsapp.com/JcFfpm9dvAWKlF8eWYuuCJ";
+            "https://github.com/kiminfodeveloper/quiz_project";
     });
 }
 

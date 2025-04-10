@@ -58,22 +58,19 @@ function jogaNovamente() {
             let redirectUrl = "";
             switch (assunto) {
                 case "Nível Fácil":
-                    redirectUrl =
-                        "https://chat.whatsapp.com/JcFfpm9dvAWKlF8eWYuuCJ";
+                    redirectUrl = "../../index.html";
                     break;
 
                 case "Nível Intermediário":
-                    redirectUrl =
-                        "https://chat.whatsapp.com/JYBD0yvXQLhBBHRhidsagw";
+                    redirectUrl = "../../index.html";
                     break;
 
                 case "Nível Difícil":
-                    redirectUrl =
-                        "https://chat.whatsapp.com/DHF8aBDTEkIF3Wfmj8jfGD";
+                    redirectUrl = "../../index.html";
                     break;
 
                 case "Nível Expert":
-                    redirectUrl = "https://wa.me/5511912731987";
+                    redirectUrl = "../../index.html";
                     break;
 
                 default:
@@ -85,7 +82,7 @@ function jogaNovamente() {
             }
 
             // Atualiza o texto do botão e define o evento de clique para redirecionar
-            botaoNomeTexto.innerText = "GRUPO WHATSAPP";
+            botaoNomeTexto.innerText = "JOGAR NOVAMENTE";
             botaoNomeTexto.addEventListener("click", () => {
                 window.location.href = redirectUrl;
             });
